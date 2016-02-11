@@ -19,6 +19,7 @@ body{
     background-color: whitesmoke;
     border-radius: 0 0 5px 5px;
     line-height: 25px;
+    font-weight: 600;
 }  
 
 .cart{
