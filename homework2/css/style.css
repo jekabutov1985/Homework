@@ -30,7 +30,8 @@ h1{
 
 .header ul{
 	height: 40px;
-	background-color: #4c4c4c;
+	border: 1px solid transparent;
+	background-color: #535252;
 	font-size: 0;
 }
 
@@ -38,13 +39,14 @@ h1{
 	display: inline-block;
 	width: 100px;
 	padding: 10px 20px;
+	border: 1px solid transparent;
 	font-size: 18px;
 }
 
 .header ul li:hover{
 	border-right: 1px solid grey;
 	border-left: 1px solid grey;
-	background-color: #363636;
+	background-color: #3f3f3f;
 }
 
 .header a{
