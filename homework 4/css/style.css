@@ -1,9 +1,10 @@
 body{
 	background-image: url(../img/back.png);
+	font-family: Tahoma;
 }
 
 .wrapper{
-	width: 80%;
+	width: 1000px;
 	margin: 0 auto;
 	background-color: white;
 	box-shadow: 0px 5px 10px 0px;
@@ -11,32 +12,38 @@ body{
 
 .logo{
 	float: left;
-	width: 60%;
-	padding-top: 36px;
+	width: 40%;
+	padding-top: 37px;
 	background-color: white;
 }
-
+.flags{
+	width: 60%;
+	float: left;
+}
 .contacts{
 	float: right;
-	padding: 5px 40px;
-	background-color: white;
+	padding: 15px 40px;
 	line-height: 21px;
 	color: #128aa7;	
+	font-size: 12px;	
+}
+
+.contacts h1{
+	font-weight: bold;
 }
 
 .menu-top{
 	float: right;
-	width: 40%;
-	height: 119px;	
+	text-align: right;
 }
 
 .nav{
-	padding: 50px 0 0 120px;
+	padding: 30px 30px 0 0;
 }	
 
 .nav li{
-	float: left;
-	width: 60px;	
+	width: 60px;
+    display: inline-block;	
 }
 
 .nav li a{
@@ -46,7 +53,7 @@ body{
 	background-position: center top;
 	background-repeat: no-repeat;
 	color: #128aa7;
-	font-size: 12px;	
+	font-size: 10px;	
 }
 
 .nav .india a{
@@ -69,10 +76,9 @@ body{
 }
 
 .beach{
-	height: 270px;
-	background-image: url(../img/foto.png);
-	background-size: 100%;
-	
+	height: 237px;
+	background-image: url(../img/foto.png);	
+	background-repeat: no-repeat;	
 }
 
 .main-menu{
@@ -99,8 +105,21 @@ ul:after {
 	float: left;
 	height: 35px;
 	width: 130px;
-	margin: 0 0 0 50px;
+	margin-right: 10px;
 	background-color: #323232;
+	text-align: center;
+}
+
+.menu > li > a {
+	display: block;
+	padding-top: 10px;
+	color: white;
+	text-decoration: none;
+	font-size: 14px; 
+}
+
+.menu .pointer{
+	text-align: left;
 }
 
 .menu .pointer:after{
@@ -114,24 +133,16 @@ ul:after {
 	border-top: 5px solid white;
 }
 
-.menu > li > a {
-	display: block;
-	padding-top: 10px;
-	color: white;
-	text-decoration: none; 
-}
-
 .menu > li:hover > ul.submenu {
 	display: block;
 }
-
 
 .submenu {
 	position: absolute;
 	top: 37px;
 	left: -5px;
-	display: none;
-	width: 180px;
+	display:none;
+	width: 140px;
 	background-color: white;
 	box-shadow: 0px 5px 10px 0px;
 }
@@ -146,6 +157,7 @@ ul:after {
 	color: white;
 	background-color: #323232;
 	text-decoration: none;
+	font-size: 14px;
 }
 
 .clearfix:after { 
@@ -164,8 +176,8 @@ ul:after {
 
 .box h1{
 	padding: 15px 0 5px 0;
-	font-size: 23px;
-	font-weight: 600;
+	font-size: 18px;
+	font-weight: bold;
 }
 
 .box-left{
@@ -196,9 +208,16 @@ ul:after {
 	text-align: center;	
 }
 
+.details{
+	display: block;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 14px;
+}
+
 .footer{
 	margin: 10px;
 	color: white;
-	font-size: 14px;
+	font-size: 12px;
 	text-align: center;
 }
