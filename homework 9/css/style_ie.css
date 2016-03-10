@@ -1,0 +1,6 @@
+
+.back__gradient{
+    height: 340px;
+    background: url(../img/back_ie.jpg) no-repeat;
+    background-size: cover;
+}
